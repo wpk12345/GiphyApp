@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy App</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="jumbotron">
+        	<h1 class="text-center">The Gifs</h1>
+        	<!-- buttons will get dumped here -->
+            <div id="buttons-view">
+            </div>
+            <div class="row">
+            	<div class="col-lg-4">
+            		<div class="input-group">
+            <form id="main-input">
+                <label class="text-center" for="user-choice">Choose a Singer or Band</label>
+                <br>
+                <input type="text" id="user-choice">
+               
+                <!-- Button triggers new topic to be added -->
+                <input class="btn btn-primary" id="add-band" type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="gifs-appear-here">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/application.js"></script>
+</body>
+
+</html>
